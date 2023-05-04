@@ -17,8 +17,8 @@ export const Form = () => {
   return (
     <>
       <form action="submit">
-        <input type="text" placeholder="first name" onChange={(e) => setFormData({...formData, firstName: e.target.value})}/>
-        <input type="text" placeholder="last name" onChange={(e) => setFormData({...formData, lastName: e.target.value})}/>
+        <input type="text" placeholder="First Name" onChange={(e) => setFormData({...formData, firstName: e.target.value})}/>
+        <input type="text" placeholder="Last Name" onChange={(e) => setFormData({...formData, lastName: e.target.value})}/>
         {/* <input type="number" placeholder="age - optional" onChange={(e) => setFormData({...formData, age: e.target.value})}/> */}
         <button type="submit" onClick={(e) => handleFormSubmit(e)}>Send Form</button>
       </form>

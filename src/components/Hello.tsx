@@ -4,8 +4,8 @@ export const Hello = ({firstName, lastName, age} :HelloProps) => {
 
   return (
     <>
-      <h2>
-        Good Morning, {firstName} {lastName}
+      <h2 className="h2-box">
+        Good Afternoon, {firstName} {lastName}!
       </h2>
     </>
   )
